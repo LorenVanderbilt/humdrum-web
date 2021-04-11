@@ -1,4 +1,10 @@
 .homeContainer{
 width: 100%;
-color: red;
+height: 100%;
+color: #ed5f5f;
+font-family: 'Akira';
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 75px;
 }
