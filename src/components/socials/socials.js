@@ -10,12 +10,12 @@ import Bandcamp from '../../resources/images/bandcamp.svg'
 import './socials.css'
 
 const social = [
-    {image: Facebook, url:'facebook.com/heyhumdrum'},
-    {image: Instagram, url:'instagram.com/heyhumdrum'},
-    {image: Tiktok, url:'tiktok.com/heyhumdrumm'},
-    {image: Twitter, url:'twitter.com/heyhumdrum'},
-    {image: Soundcloud, url:'soundcloud.com/heyhumdrum'},
-    {image: Bandcamp, url:'bandcamp.com/heyhumdrum'},
+    {image: Facebook, url:'http://www.facebook.com/heyhumdrum'},
+    {image: Instagram, url:'http://instagram.com/heyhumdrum'},
+    {image: Tiktok, url:'http://tiktok.com/heyhumdrumm'},
+    {image: Twitter, url:'http://twitter.com/heyhumdrum'},
+    {image: Soundcloud, url:'http://soundcloud.com/heyhumdrum'},
+    {image: Bandcamp, url:'http://bandcamp.com/heyhumdrum'},
 ]
 
 export default function Socials(props){
