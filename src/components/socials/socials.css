@@ -23,6 +23,7 @@
     margin-bottom: 3px;
     margin-left: -50px;
     transition: margin-left 1s;
+    cursor: pointer;
 }
 
 .socialsCircle img{

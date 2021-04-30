@@ -5,9 +5,7 @@ import Instagram from '../../resources/images/instagram.svg'
 import Tiktok from '../../resources/images/tiktok.svg'
 import Soundcloud from '../../resources/images/soundcloud.svg'
 import Bandcamp from '../../resources/images/bandcamp.svg'
-
-
-import './socials.css'
+import './Socials.css'
 
 const social = [
     {image: Facebook, url:'http://www.facebook.com/heyhumdrum'},
