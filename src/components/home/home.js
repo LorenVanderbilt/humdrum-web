@@ -20,7 +20,9 @@ export default function Home(props) {
       onMouseEnter={() => toggleHover(true)}
       onMouseLeave={() => toggleHover(false)}
     >
-      {hover && <Socials />}
+      {/* {hover && <Socials />} */}
+      <Socials />
+
       {/* <Parallax className="custom-class"
        offsetYMax={100}
        offsetYMin={-120}
