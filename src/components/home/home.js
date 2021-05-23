@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import Splatter from '../../resources/images/Splatter.jpg';
 import Socials from '../socials/Socials.js';
 import Bio from '../bio/Bio';
 // import { Parallax } from 'react-scroll-parallax';
 import './Home.css';
+
 
 export default function Home(props) {
   const [section, setSection] = useState(null);
