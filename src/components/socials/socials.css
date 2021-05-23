@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: flex-start;
     position: absolute;
+    left: 0;
 }
 
 .socialsContainer:hover > .socialsCircle{
@@ -22,7 +23,8 @@
     justify-content: center;
     margin-bottom: 3px;
     margin-left: -50px;
-    transition: margin-left 1s;
+    transition: margin-left 1s; 
+    cursor: pointer;
 }
 
 .socialsCircle img{
