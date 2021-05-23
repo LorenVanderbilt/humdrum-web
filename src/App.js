@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      {isMobile? <div>MOBILE SITE COMING SOON</div>:<Home />}
+      {isMobile? <div>MOBILE COMING SOON</div>:<Home />}
     </div>
   );
 }
