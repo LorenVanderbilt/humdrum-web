@@ -15,13 +15,31 @@ height: 100vh;
 }
 
 .homeMenuContainer{
-    /* border: 1px solid lime; */
+/* border: 1px solid lime; */
+}
+
+.moveUp{
+background-color:aquamarine;
+margin-bottom: 500px;
+}
+
+.homeMenuOptionsContainer{
     height: 40px;
-    width: 400px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     color: #ed5f5f;
     font-size: 25px;
-    /* font-family: 'Akira'; */
+}
+
+.homeBodyContent{
+  /* border: 1px solid lime; */
+  width: 600px;
+  height: 1900px;
+}
+
+.homeMenuOption{
+  cursor: pointer;
+      font-family: 'Akira';
 
 }
