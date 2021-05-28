@@ -1,9 +1,9 @@
 import React, { useState} from 'react';
 import Splatter from '../../resources/images/Splatter.jpg';
-import Socials from '../socials/Socials.js';
+import Socials from '../socials/socials.js';
 import Bio from '../bio/Bio';
 // import { Parallax } from 'react-scroll-parallax';
-import './Home.css';
+import './home.css';
 
 
 export default function Home(props) {

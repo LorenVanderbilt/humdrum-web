@@ -1,4 +1,5 @@
-import Home from './components/home/Home'
+import Home from './components/home/home';
+import Mobile from './components/Mobile/Mobile';
 import {useEffect, useState} from 'react';
 import './App.css';
 
@@ -19,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      {isMobile? <div>MOBILE COMING SOON</div>:<Home />}
+      {isMobile? <Mobile/>:<Home />}
     </div>
   );
 }
