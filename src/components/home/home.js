@@ -1,27 +1,34 @@
-import React, { useState} from 'react';
-// import Splatter from '../../resources/images/Splatter.jpg';
+import React, { useState } from 'react';
 import Splatter from '../../resources/images/custom-splatter-06.jpg';
-
 import Socials from '../socials/socials.js';
 import Bio from '../bio/Bio';
-// import { Parallax } from 'react-scroll-parallax';
+import Shows from '../shows/Shows.js';
+import Contact from '../contact/Contact.js';
+import Listen from '../listen/Listen';
 import './home.css';
 
-
 export default function Home(props) {
-  const [section, setSection] = useState(null);
+  const [backgroundOpacity, setBackgroundOpacity] = useState(false);
+  const [hover, setHover] = useState(null);
 
-  const homeOptions = ['Bio', 'Shows', 'Store', 'Contact'];
-  // console.log('SECTION', section)
+  const homeOptions = ['Bio', 'Listen', 'Shows', 'Contact'];
 
-  const moveMenu =()=> {
-    // document.getElementById('img').className = 'classname';
-    document.getElementById('home-header').classList.add('moveUp')
-  }
+  const handleScroll = (evt) => {
+    const target = evt.target;
+    if (target.scrollTop > 300) {
+      setBackgroundOpacity(true);
+    } else {
+      setBackgroundOpacity(false);
+    }
+  };
+
+  // console.log('huhuhuh', document
+  // .getElementById('home-container').scrollTop)
 
   return (
     <div
       className={'homeContainer'}
+      id={'Home-Container'}
       style={{
         backgroundImage: `url(${Splatter})`,
         backgroundPosition: 'center',
@@ -33,25 +40,68 @@ export default function Home(props) {
       }}
     >
       <Socials />
-      <div className={'homeMenuContainer'} id={'home-header'}>
-        <div className={'headerText'}>HUMDRUM</div>
-        {/* <div className={'homeMenuOptionsContainer'}>
-          {homeOptions.map((option, index) => {
-            return (
-              <span
-                onClick={() => {setSection(option);moveMenu()}}
-                key={index}
-                className={'homeMenuOption'}
-              >
-                {option}
-              </span>
-            );
-          })}
-        </div> */}
+      <div
+        className={
+          backgroundOpacity
+            ? 'homeContentContainer-opaque'
+            : 'homeContentContainer-trans'
+        }
+        onScroll={handleScroll}
+        id={'home-container'}
+      >
+        <div
+          className={
+            backgroundOpacity
+              ? 'homeMenuContainer-opaque'
+              : 'homeMenuContainer-trans'
+          }
+        >
+          <div
+            className={'headerText'}
+            onClick={() =>
+              document
+                .getElementById('home-container')
+                .scrollTo({ top: 0, behavior: 'smooth' })
+            }
+            // style={{cursor: 'pointer'}}
+          >
+            HUMDRUM
+          </div>
+          <div className={'homeMenuOptionsContainer'}>
+            {homeOptions.map((option, index) => {
+              return (
+                <span
+                  onClick={() => {
+                    document
+                      .getElementById(`${option}-Section`)
+                      .scrollIntoView({ behavior: 'smooth' });
+                  }}
+                  onMouseEnter={() => setHover(option)}
+                  onMouseLeave={() => setHover(null)}
+                  key={index}
+                  className={'homeMenuOption'}
+                  style={{
+                    textDecoration: hover === option ? 'underline' : 'none',
+                  }}
+                >
+                  {option}
+                </span>
+              );
+            })}
+          </div>
+        </div>
+        <div className={'homeSections'}>
+          <hr />
+          <Bio />
+          <hr />
+          <Listen />
+          <hr />
+          <Shows />
+          <hr />
+          <Contact />
+          © Humdrum 2021
+        </div>
       </div>
-      {/* {section && (
-        <div className={'homeBodyContent'}>{section === 'Bio' && <Bio />}</div>
-      )} */}
     </div>
   );
 }

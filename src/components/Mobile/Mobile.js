@@ -1,5 +1,5 @@
 import React from 'react';
-import Splatter from '../../resources/images/Splatter.jpg';
+import Splatter from '../../resources/images/custom-splatter-06.jpg';
 import Socials from '../socials/socials';
 
 export default function Mobile() {
