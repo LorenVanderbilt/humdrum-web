@@ -3,7 +3,7 @@ import Mobile from './components/Mobile/Mobile';
 import {useEffect, useState} from 'react';
 import './App.css';
 
-function App() {
+export default function App() {
   const [width, setWidth] = useState(window.innerWidth);
   function handleWindowSizeChange() {
     setWidth(window.innerWidth);
@@ -24,5 +24,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
