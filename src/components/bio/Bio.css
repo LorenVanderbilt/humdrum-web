@@ -1,3 +1,13 @@
 .bioContainer{
-    overflow: scroll;
+    /* padding-top: 130px; */
+    padding-top: 150px;
+    height: 800px;
+}
+
+.bioText{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    font-family: 'Courier';
 }

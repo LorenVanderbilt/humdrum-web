@@ -1,8 +1,9 @@
-import Home from './components/home/Home'
+import Home from './components/home/home';
+import Mobile from './components/Mobile/Mobile';
 import {useEffect, useState} from 'react';
 import './App.css';
 
-function App() {
+export default function App() {
   const [width, setWidth] = useState(window.innerWidth);
   function handleWindowSizeChange() {
     setWidth(window.innerWidth);
@@ -19,9 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      {isMobile? <div>MOBILE COMING SOON</div>:<Home />}
+      {isMobile? <Mobile/>:<Home />}
     </div>
   );
 }
-
-export default App;
