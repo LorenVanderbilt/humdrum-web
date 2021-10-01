@@ -1,5 +1,6 @@
 import React from 'react';
 import lorenivy from '../../resources/images/lorenivy_small.jpg'
+
 import './Contact.css';
 
 export default function Contact(props){

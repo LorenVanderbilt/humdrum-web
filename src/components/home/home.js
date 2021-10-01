@@ -39,7 +39,7 @@ export default function Home(props) {
         overflow: 'scroll',
       }}
     >
-      <Socials />
+      <Socials mobile={false}/>
       <div
         className={
           backgroundOpacity

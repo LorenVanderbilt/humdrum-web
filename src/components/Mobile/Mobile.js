@@ -20,7 +20,7 @@ export default function Mobile() {
       }}
     >
         <div style={{width: '50%'}}>
-            <Socials/>
+            <Socials mobile={true}/>
         </div>
         <div style={{width: '50%'}}>
         <div
