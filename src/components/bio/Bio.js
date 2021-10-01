@@ -14,7 +14,7 @@ export default function Bio(props) {
           music project of Chicago's Loren Vanderbilt. After the dissolution of previous band Star Tropics, 
           Loren spent the beginning of the pandemic writing new music alone in his apartment to dissociate from the crumbling world outside. 
           Daydreaming to the jangle pop of IRS-era R.E.M., The Railway Children, New Order, and 90's staples like Ride and Slowdive, 
-          Humdrum was built from this escapist nostalgia for the musical eras gone by, and informed by the need for said escape. 
+          Humdrum was built from this escapist nostalgia for the musical eras gone by, and informed by the anxious need for said escape. 
           With the release of the first song, 'Wave Goodbye', in September 2021, Loren plans to release more new music in the coming autumn/winter season.
         </div>
       </div>
