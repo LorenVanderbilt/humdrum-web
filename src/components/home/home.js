@@ -22,8 +22,16 @@ export default function Home(props) {
     }
   };
 
-  // console.log('huhuhuh', document
-  // .getElementById('home-container').scrollTop)
+  console.log("dP                                 dP                              ")
+  console.log("88                                 88                              ")
+  console.log("88d888b. dP    dP 88d8b.d8b. .d888b88 88d888b. dP    dP 88d8b.d8b. ")
+  console.log("88'  `88 88    88 88'`88'`88 88'  `88 88'  `88 88    88 88'`88'`88 ")
+  console.log("88    88 88.  .88 88  88  88 88.  .88 88       88.  .88 88  88  88 ")
+  console.log("dP    dP `88888P' dP  dP  dP `88888P8 dP       `88888P' dP  dP  dP ")
+  console.log("ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo")
+  console.log("                                                                   ")
+  console.log("                                                                   ")
+
 
   return (
     <div
