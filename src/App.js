@@ -1,5 +1,5 @@
-import Home from './components/home/home';
 import Mobile from './components/Mobile/Mobile';
+import Desktop from './components/desktop/Desktop'
 import {useEffect, useState} from 'react';
 import './App.css';
 
@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <div className="App">
-      {isMobile? <Mobile/>:<Home />}
+      {isMobile? <Mobile/>:<Desktop />}
     </div>
   );
 }

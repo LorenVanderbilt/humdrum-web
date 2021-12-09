@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   width: 560px;
-  overflow: scroll;
+  /* overflow: scroll; */
   transition: background-color 1s; 
 
 }
@@ -27,10 +27,10 @@
   display: flex;
   flex-direction: column;
   width: 560px;
-  overflow: scroll;
+  /* overflow: scroll; */
   background-color: #F1F1EF;
   transition: background-color 1s; 
-
+  
 }
 
 .homeMenuContainer-trans {
@@ -47,6 +47,18 @@
   margin-bottom: 400px;
   background-color: #F1F1EF;
 }
+
+/* ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+} */
+
 .moveUp {
   background-color: aquamarine;
   margin-bottom: 1500px;
