@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Shapes from '../../resources/images/parallax-test-background.png';
 import Splatter from '../../resources/images/custom-splatter-06.jpg';
 import Content from '../content/Content';
-import Socials from '../socials/socials';
+import Socials from '../socials/Socials';
 import './Desktop.css';
 
 export default function Desktop() {
@@ -49,7 +49,7 @@ export default function Desktop() {
       </div>
       <div className="socials-container">
         <Socials mobile={false} />
-      </div>
+      </div> 
     </div>
   );
 }

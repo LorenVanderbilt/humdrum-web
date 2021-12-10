@@ -6,7 +6,7 @@ import Tiktok from '../../resources/images/tiktok.svg';
 import Bandcamp from '../../resources/images/bandcamp.svg';
 import Apple from '../../resources/images/apple.svg';
 import Spotify from '../../resources/images/spotify.svg';
-import './socials.scss';
+import './Socials.scss';
 
 const social = [
   { image: Bandcamp, url: 'https://heyhumdrum.bandcamp.com/releases' },
