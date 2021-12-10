@@ -1,5 +1,5 @@
 
-   .background-container{
+   .background{
     width: 100vw;
     height: 100vh;
     background-position: center center;
@@ -8,13 +8,13 @@
     overflow-x: hidden;
     overflow-y: scroll;
     display: flex;
-    justify-content: center; 
+    /* justify-content: center;  */
     perspective: 1px;
     perspective-origin: 0 0;
   }
   
   .floating-shapes {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     height: 4669px;
     background-repeat: no-repeat;
@@ -29,8 +29,18 @@
     /* border: 1px solid green; */
     position: absolute;
     top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: center;
     transform-origin: 0 0;
     transform: translateZ(0px) scale(1);
+  }
+
+  .socials-container{
+    position: sticky;
+    width: 100px;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
   }

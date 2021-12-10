@@ -1,86 +1,55 @@
-.homeContainer {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-  }
-  
-  .headerText {
-    color: #ed5f5f;
-    font-family: 'Akira';
-    font-size: 75px;
-  }
-  
-  .homeContentContainer-trans {
-    display: flex;
-    flex-direction: column;
-    width: 560px;
-    /* overflow: scroll; */
-    transition: background-color 1s; 
-  
-  }
-  
-  .homeContentContainer-opaque {
-    display: flex;
-    flex-direction: column;
-    width: 620px;
-    /* overflow: scroll; */
-    background-color: #F1F1EF;
-    transition: background-color 1s; 
-  }
-  
-  .homeMenuContainer-trans {
-    position: sticky;
-    top:0;
-    margin-top: 300px;
-    margin-bottom: 400px;
-    transition: background-color 2s; 
-  }
-  
-  .homeMenuContainer-opaque {
-    position: sticky;
-    top:0;
-    margin-top: 300px;
-    margin-bottom: 400px;
-    background-color: #F1F1EF;
-    transition: background-color 2s; 
-  }
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 620px;
+  transition: background-color 1s;
+}
 
-  
-  .moveUp {
-    background-color: aquamarine;
-    margin-bottom: 1500px;
-  }
-  
-  .homeMenuOptionsContainer {
-    height: 40px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    color: #ed5f5f;
-    font-size: 25px;
-  }
-  
-  .homeBodyContent {
-    /* border: 1px solid lime; */
-    width: 600px;
-    height: 1900px;
-  }
-  
-  .homeMenuOption {
-    cursor: pointer;
-    font-family: 'Akira';
-  }
-  
-  .homeSections{
-    font-family: 'Courier';
-    margin-bottom: 10px;
-  }
-  
-  hr {
-    width: 75%;
-  }
-  
+.home-opaque {
+  background-color: rgba(241, 241, 239, 0.95);
+}
+
+.menu-wrapper {
+  position: sticky;
+  top: 0;
+  margin-top: 300px;
+  margin-bottom: 400px;
+  transition: background-color 2s;
+}
+
+.menu-opaque {
+  background-color: rgba(241, 241, 239, 0.8);
+}
+
+.options-wrapper {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #ed5f5f;
+  font-size: 25px;
+}
+
+.header-text {
+  color: #ed5f5f;
+  font-family: 'Akira';
+  font-size: 75px;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.menu-option {
+  cursor: pointer;
+  font-family: 'Akira';
+}
+
+.sections-wrapper{
+  font-family: 'Courier';
+  margin-bottom: 10px;
+}
+
+hr {
+  width: 75%;
+}

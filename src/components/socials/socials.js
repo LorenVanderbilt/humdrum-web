@@ -6,8 +6,7 @@ import Tiktok from '../../resources/images/tiktok.svg';
 import Bandcamp from '../../resources/images/bandcamp.svg';
 import Apple from '../../resources/images/apple.svg';
 import Spotify from '../../resources/images/spotify.svg';
-
-import './socials.css';
+import './socials.scss';
 
 const social = [
   { image: Bandcamp, url: 'https://heyhumdrum.bandcamp.com/releases' },
@@ -28,12 +27,12 @@ export default function Socials(props) {
   };
 
   return (
-    <div className={'socialsContainer'}>
+    <div className={'socials-wrapper'}>
       {mobile && <div style={{height: '300px'}}/>}
       {social.map((obj, index) => {
         return (
           <div
-            className={mobile? 'socialsCircleMobile':'socialsCircle'}
+            className={ `socials-circle ${mobile && 'mobile-margin'}`}
             key={`social-button-${index}`}
             onClick={() => openInNewTab(obj.url)}
           >
