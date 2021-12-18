@@ -46,7 +46,9 @@ export default function Content(props) {
                       key={index}
                       className={'menu-option'}
                       style={{
-                        textDecoration: hover === option ? 'underline' : 'none',
+                        textDecorationLine: hover === option ? 'underline' : 'none',
+                        textUnderlinePosition: 'under',
+                        // textDecorationColor: 'red', TODO
                       }}
                     >
                       {option}

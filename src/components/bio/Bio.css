@@ -1,6 +1,6 @@
 .bioContainer{
-    padding-top: 150px;
-    height: 800px;
+    padding-top: 29vh;
+    height: 100vh;
 }
 
 .bioText{
@@ -8,4 +8,5 @@
     margin-right: 10px;
     text-align: left;
     font-family: 'Courier';
+    font-size: 14px;
 }

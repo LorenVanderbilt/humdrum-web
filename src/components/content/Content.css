@@ -55,14 +55,16 @@
 }
 
 .options-wrapper {
-  height: 40px;
+  /* border: 1px solid lime; */
+  height: 4vh;
+  margin-right: .35vw;
   width: 67%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: #ed5f5f;
   font-size: 1.25vw;
-  /* border: 1px solid green; */
+  background-color: rgba(0, 0, 0, .6)
 }
 
 .header-text {
@@ -85,8 +87,11 @@
   font-family: Humdrum;
   color: #619fd3;
   font-size: 2.5vw;
-  letter-spacing: 5px;
+  line-height: 2vw;
+  letter-spacing: .35vw;
+  margin-right: -.35vw;
   text-transform: uppercase;
+  /* border: 1px solid yellow; */
 }
 
 .circle{
