@@ -13,8 +13,15 @@ code {
 }
 
 @font-face {
-  font-family: 'Akira';
-  src: local('Akira'), url(./resources/fonts/AkiraExpandedDemo.otf) format('opentype');
+  font-family: 'Humdrum';
+  src: local('Humdrum'), url(./resources/fonts/humdrumRegular.otf) format('opentype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: 'Secondary';
+  src: local('Secondary'), url(./resources/fonts/secondary.otf) format('opentype');
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }
