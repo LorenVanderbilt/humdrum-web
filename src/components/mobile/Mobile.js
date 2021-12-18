@@ -28,13 +28,13 @@ export default function Mobile() {
           transform: 'rotate(90deg)',
           color: '#ed5f5f',
           fontFamily: 'Humdrum',
-          fontSize: '75px',
+          fontSize: '60vw',
           position: 'relative',
           top: 50,
           right: 0
         }}
       >
-        HUMDRUM
+        humdrum
       </div>
         </div>
 
