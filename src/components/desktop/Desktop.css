@@ -1,0 +1,52 @@
+
+   .background{
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: flex;
+    /* justify-content: center;  */
+    perspective: 1px;
+    perspective-origin: 0 0;
+  }
+  
+  .floating-shapes {
+    width: 100%;
+    border: 1px solid red;
+    height: 4000px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    transform-origin: 0 0;
+    transform: translateZ(-1px) scale(5)
+  }
+  
+  /* .square{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+  } */
+  
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    transform-origin: 0 0;
+    transform: translateZ(0px) scale(1);
+  }
+
+  .socials-container{
+    position: sticky;
+    width: 100px;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+  }

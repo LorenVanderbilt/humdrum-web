@@ -1,6 +1,6 @@
 import React from 'react';
 import Splatter from '../../resources/images/custom-splatter-06.jpg';
-import Socials from '../socials/socials';
+import Socials from '../socials/Socials';
 
 export default function Mobile() {
   return (
@@ -27,14 +27,14 @@ export default function Mobile() {
         style={{
           transform: 'rotate(90deg)',
           color: '#ed5f5f',
-          fontFamily: 'Akira',
-          fontSize: '75px',
+          fontFamily: 'Humdrum',
+          fontSize: '60vw',
           position: 'relative',
           top: 50,
           right: 0
         }}
       >
-        HUMDRUM
+        humdrum
       </div>
         </div>
 

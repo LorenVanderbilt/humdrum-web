@@ -1,0 +1,17 @@
+.shapes-wrapper{
+display: flex;
+flex-direction: column;
+}
+
+.blank-space{
+height: 60vh;
+width: 100%;
+}
+
+.red-circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: red;
+    opacity: .5;
+}

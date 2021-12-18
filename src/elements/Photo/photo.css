@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.photo{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+}
+.caption{
+    align-self: flex-end;
+    font-size: 12px;
+    color: black;
+}
