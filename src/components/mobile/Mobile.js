@@ -27,7 +27,7 @@ export default function Mobile() {
         style={{
           transform: 'rotate(90deg)',
           color: '#ed5f5f',
-          fontFamily: 'Akira',
+          fontFamily: 'Humdrum',
           fontSize: '75px',
           position: 'relative',
           top: 50,

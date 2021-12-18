@@ -1,39 +1,79 @@
 .home-wrapper {
   display: flex;
   flex-direction: column;
-  width: 620px;
+  justify-content: center;
+  width: 38vw;
   transition: background-color 1s;
+  /* border: 1px solid green; */
 }
 
 .home-opaque {
   background-color: rgba(241, 241, 239, 0.95);
 }
-
-.menu-wrapper {
+.square-wrapper{
+  /* border: 2px solid black; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   position: sticky;
-  top: 0;
-  margin-top: 300px;
-  margin-bottom: 400px;
-  transition: background-color 2s;
+  top: -57vh;
+  pointer-events: none; 
 }
 
-.menu-opaque {
-  background-color: rgba(241, 241, 239, 0.8);
+.spin{
+  transform: rotate(-4deg); /* Equal to rotateZ(45deg) */
+}
+
+.square{
+  width: 100%;
+  transition: transform 1s;
+}
+
+.menu-wrapper {
+  /* border: 1px solid lime; */
+  width: 36vw;
+  height: 36vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-sticky{
+  /* border: 1px solid red; */
+  width: 36vw;
+  position: sticky;
+  /* top: 100px; */
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: auto; 
 }
 
 .options-wrapper {
   height: 40px;
-  width: 100%;
+  width: 67%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   color: #ed5f5f;
-  font-size: 25px;
+  font-size: 1.25vw;
+  /* border: 1px solid green; */
 }
 
 .header-text {
+  /* border: 1px solid yellow; */
   color: #ed5f5f;
-  font-family: 'Akira';
-  font-size: 75px;
+  font-family: Humdrum;
+  /* font-size: 75px; */
+  font-size: 10.8vw;
+  letter-spacing: 10px;
+  width: 80%;
+  line-height: 10vw;
 }
 
 .pointer{
@@ -42,9 +82,19 @@
 
 .menu-option {
   cursor: pointer;
-  font-family: 'Akira';
+  font-family: Humdrum;
+  color: #619fd3;
+  font-size: 2.5vw;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
 
+.circle{
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: #61d3ac;
+}
 .sections-wrapper{
   font-family: 'Courier';
   margin-bottom: 10px;

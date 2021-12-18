@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import Shapes from '../../resources/images/parallax-test-background.png';
+// import Shapes from '../../resources/images/parallax-test-background.png';
+// import Shapes from '../../resources/images/backgroundShapes.png';
+import Shapes from './Shapes';
 import Splatter from '../../resources/images/custom-splatter-06.jpg';
 import Content from '../content/Content';
 import Socials from '../socials/Socials';
@@ -38,12 +40,14 @@ export default function Desktop() {
       onScroll={handleScroll}
       id="desktop-background"
     >
-      <div
+      {/* <div
         className="floating-shapes"
-        style={{
-          backgroundImage: `url(${Shapes})`,
-        }}
-      />
+        // style={{
+        //   backgroundImage: `url(${Shapes})`,
+        // }}
+      >
+       <Shapes />   
+      </div> */}
       <div className="content">
         <Content backgroundOpacity={backgroundOpacity} />
       </div>
