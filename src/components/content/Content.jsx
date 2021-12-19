@@ -18,7 +18,7 @@ export default function Content(props) {
       id={'home-container'}
     >
       <div className={`square-wrapper`}>
-        <img src={Square} className={`square ${backgroundOpacity && 'spin'}`} />
+        <img src={Square} className={`square ${backgroundOpacity && 'spin'}`} alt={'black square'}/>
         <div className={'menu-wrapper'}>
           <div className={'menu-sticky'}>
             <div
@@ -43,7 +43,7 @@ export default function Content(props) {
                       }}
                       onMouseEnter={() => setHover(option)}
                       onMouseLeave={() => setHover(null)}
-                      key={index}
+                      key={`option-${index}`}
                       className={'menu-option'}
                       style={{
                         textDecorationLine: hover === option ? 'underline' : 'none',
