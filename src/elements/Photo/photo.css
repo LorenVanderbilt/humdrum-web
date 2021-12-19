@@ -1,14 +1,16 @@
 .container{
     display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+    flex-direction: column;
+    overflow:hidden;
+    margin-left: -50px;
 }
+
 .photo{
-    width: 70%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
-
 }
+
 .caption{
     align-self: flex-end;
     font-size: 12px;

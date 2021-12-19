@@ -1,12 +1,35 @@
-.bioContainer{
-    padding-top: 29vh;
-    height: 100vh;
+.bio-container {
+  padding-top: 29vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
 }
 
-.bioText{
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: left;
-    font-family: 'Courier';
-    font-size: 14px;
+.bio-header-wrapper {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.bio-header-text{
+  /* border: 1px solid purple; */
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  text-transform: uppercase;
+  font-family: Humdrum;
+  font-size: 13vw;
+  letter-spacing: 10vh;
+  width: 11vw;
+  line-height: 12vh;
+  z-index: 2;
+}
+
+.bio-text {
+  text-align: left;
+  font-family: 'Courier';
+  font-size: 14px;
 }

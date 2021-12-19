@@ -1,8 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Splatter from '../../resources/images/custom-splatter-06.jpg';
+import Square from '../../resources/images/newSquare40.png';
 import Socials from '../socials/Socials';
+import './Mobile.css'
 
 export default function Mobile() {
+  const [tap, setTap]= useState(false)
+
   return (
     <div
       style={{
@@ -15,30 +19,21 @@ export default function Mobile() {
         overflow: 'scroll',
         display: 'flex',
         flexDirection: 'row',
-        // width: '100%',
         overflowX: 'hidden',
       }}
     >
-        <div style={{width: '50%'}}>
-            <Socials mobile={true}/>
-        </div>
-        <div style={{width: '50%'}}>
-        <div
-        style={{
-          transform: 'rotate(90deg)',
-          color: '#ed5f5f',
-          fontFamily: 'Humdrum',
-          fontSize: '60vw',
-          position: 'relative',
-          top: 50,
-          right: 0
-        }}
-      >
-        humdrum
+      <div className={'half-screen'}>
+        <Socials mobile={true} />
       </div>
+      <div className={'half-screen'}>
+        <div
+         className={'mobile-humdrum-text'}
+         onClick={()=> setTap(!tap)}
+        >
+          humdrum
         </div>
-
-      
+        <img src={Square} className={`square-mobile ${tap && 'spin-mobile'}`} />
+      </div>
     </div>
   );
 }
