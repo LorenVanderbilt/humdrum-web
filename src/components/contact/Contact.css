@@ -1,4 +1,27 @@
-.contactContainer {
+.contact-container {
   padding-top: 29vh;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+}
+
+.contact-header-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.contact-header-text{
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  text-transform: uppercase;
+  font-size: 13vw;
+  letter-spacing: .75vh;
+  width: 11vw;
+  line-height: 8vh;
+  z-index: 2;
+  font-family: Humdrum;
 }
