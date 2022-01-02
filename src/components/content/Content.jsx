@@ -4,6 +4,9 @@ import Shows from '../shows/Shows.js';
 import Contact from '../contact/Contact.js';
 import Listen from '../listen/Listen';
 import Square from '../../resources/images/newSquare40.png';
+import {ReactComponent as Squiggle01} from '../../resources/images/squiggle01.svg';
+import {ReactComponent as Squiggle02} from '../../resources/images/squiggle02.svg';
+import {ReactComponent as Squiggle03} from '../../resources/images/squiggle03.svg';
 import './Content.css';
 
 export default function Content(props) {
@@ -18,7 +21,11 @@ export default function Content(props) {
       id={'home-container'}
     >
       <div className={`square-wrapper`}>
-        <img src={Square} className={`square ${backgroundOpacity && 'spin'}`} alt={'black square'}/>
+        <img
+          src={Square}
+          className={`square ${backgroundOpacity && 'spin'}`}
+          alt={'black square'}
+        />
         <div className={'menu-wrapper'}>
           <div className={'menu-sticky'}>
             <div
@@ -34,7 +41,7 @@ export default function Content(props) {
             <div className={'options-wrapper'}>
               {options.map((option, index) => {
                 return (
-                  <>
+                  <React.Fragment key={`option-${index}`}>
                     <span
                       onClick={() => {
                         document
@@ -43,18 +50,17 @@ export default function Content(props) {
                       }}
                       onMouseEnter={() => setHover(option)}
                       onMouseLeave={() => setHover(null)}
-                      key={`option-${index}`}
                       className={'menu-option'}
                       style={{
-                        textDecorationLine: hover === option ? 'underline' : 'none',
-                        textUnderlinePosition: 'under',
-                        // textDecorationColor: 'red', TODO
+                        textDecorationLine:
+                          hover === option ? 'underline' : 'none',
+                          textUnderlinePosition: 'under',
                       }}
                     >
                       {option}
                     </span>
-                    {index < options.length - 1 && <div className={'circle'} />}
-                  </>
+                    {index < options.length - 1 && <div className={'circle'} key={`circle-${index}`}/>}
+                  </React.Fragment>
                 );
               })}
             </div>
@@ -62,14 +68,19 @@ export default function Content(props) {
         </div>
       </div>
       <div className={'sections-wrapper'}>
-        <hr />
         <Bio />
-        <hr />
+        <div className={'separation-wrapper'} style={{ transform: 'rotate(14deg)'}}>
+          <Squiggle01 />
+        </div>
         <Listen />
-        <hr />
+        <div className={'separation-wrapper'} style={{ transform: 'rotate(-14deg)'}}>
+          <Squiggle02 /> 
+        </div>
         <Shows />
-        <hr />
-        <Contact />© Humdrum 2021
+        <div className={'separation-wrapper'}>
+          <Squiggle03 /> 
+        </div>
+        <Contact />© Humdrum 2022
       </div>
     </div>
   );

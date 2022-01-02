@@ -95,6 +95,16 @@
   /* border: 1px solid yellow; */
 }
 
+/* .menu-option:after{
+  position: absolute;
+  width: .5vw;
+  height: 2.8vw;
+  background-color: white;
+  content: ".";
+  text-indent: -9999em;
+  margin-left: -.3vw;
+} */
+
 .circle{
   height: 10px;
   width: 10px;
@@ -107,6 +117,10 @@
   margin-bottom: 10px;
 }
 
-hr {
-  width: 75%;
+
+.separation-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

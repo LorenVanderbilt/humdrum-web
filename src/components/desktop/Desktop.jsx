@@ -12,15 +12,14 @@ export default function Desktop() {
 
   const handleScroll = (evt) => {
     const target = evt.target;
-    // console.log('BAM', evt.target.scrollTop);
     if (target.scrollTop > 300) {
       setBackgroundOpacity(true);
     } else {
       setBackgroundOpacity(false);
     }
   };
+  
 /* eslint-disable */
-
   useEffect(()=>{
     console.log(
     `     _                             
