@@ -16,10 +16,10 @@ export default function Mobile() {
         backgroundRepeat: 'no-repeat',
         width: '100vw',
         height: '100vh',
-        overflow: 'scroll',
+        // overflow: 'scroll',
         display: 'flex',
         flexDirection: 'row',
-        overflowX: 'hidden',
+        overflow: 'hidden',
       }}
     >
       <div className={'half-screen'}>
@@ -32,7 +32,7 @@ export default function Mobile() {
         >
           humdrum
         </div>
-        <img src={Square} className={`square-mobile ${tap && 'spin-mobile'}`} />
+        {/* <img src={Square} className={`square-mobile ${tap && 'spin-mobile'}`} alt={'black square'}/> */}
       </div>
     </div>
   );

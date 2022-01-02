@@ -1,6 +1,7 @@
+import {useEffect, useState} from 'react';
 import Mobile from './components/mobile/Mobile';
 import Desktop from './components/desktop/Desktop'
-import {useEffect, useState} from 'react';
+
 import './App.css';
 
 export default function App() {
