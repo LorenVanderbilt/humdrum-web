@@ -57,7 +57,7 @@ export default function Content(props) {
                           textUnderlinePosition: 'under',
                       }}
                     >
-                      {option}
+                      {option.split("").reverse().join("")}
                     </span>
                     {index < options.length - 1 && <div className={'circle'} key={`circle-${index}`}/>}
                   </React.Fragment>
