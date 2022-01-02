@@ -1,0 +1,14 @@
+<svg
+    width="260"
+    height="100"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    >
+
+    <path
+        d="M15,60 Q35,95 90,50 T135,50 T180,50 T240,60 "
+        fill="none"
+        stroke="black"
+        stroke-width="30"
+    />
+</svg>

@@ -59,7 +59,7 @@
   /* border: 1px solid lime; */
   height: 4vh;
   margin-right: .35vw;
-  width: 67%;
+  width: 65%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -90,10 +90,24 @@
   font-size: 2.5vw;
   line-height: 2vw;
   letter-spacing: .35vw;
-  margin-right: -.35vw;
   text-transform: uppercase;
-  /* border: 1px solid yellow; */
+  unicode-bidi:bidi-override;
+  direction:rtl;
 }
+
+.menu-option::first-letter {
+  letter-spacing: normal;
+}
+
+/* .menu-option:after{
+  position: absolute;
+  width: .5vw;
+  height: 2.8vw;
+  background-color: white;
+  content: ".";
+  text-indent: -9999em;
+  margin-left: -.3vw;
+} */
 
 .circle{
   height: 10px;
@@ -107,6 +121,10 @@
   margin-bottom: 10px;
 }
 
-hr {
-  width: 75%;
+
+.separation-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
