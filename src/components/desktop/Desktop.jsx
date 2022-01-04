@@ -54,12 +54,13 @@ export default function Desktop() {
       >
        <Shapes />   
       </div> */}
-      <div className="content">
-        <Content backgroundOpacity={backgroundOpacity} />
-      </div>
       <div className="socials-container">
         <Socials mobile={false} />
       </div> 
+      <div className="content">
+        <Content backgroundOpacity={backgroundOpacity} />
+      </div>
+      
     </div>
   );
 }

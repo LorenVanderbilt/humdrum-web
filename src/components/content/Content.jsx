@@ -42,7 +42,7 @@ export default function Content(props) {
               {options.map((option, index) => {
                 return (
                   <React.Fragment key={`option-${index}`}>
-                    <span
+                    <div
                       onClick={() => {
                         document
                           .getElementById(`${option}-Section`)
@@ -51,14 +51,9 @@ export default function Content(props) {
                       onMouseEnter={() => setHover(option)}
                       onMouseLeave={() => setHover(null)}
                       className={'menu-option'}
-                      style={{
-                        textDecorationLine:
-                          hover === option ? 'underline' : 'none',
-                          textUnderlinePosition: 'under',
-                      }}
                     >
-                      {option.split("").reverse().join("")}
-                    </span>
+                      {option}
+                    </div>
                     {index < options.length - 1 && <div className={'circle'} key={`circle-${index}`}/>}
                   </React.Fragment>
                 );

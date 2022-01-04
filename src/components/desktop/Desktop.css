@@ -1,16 +1,23 @@
 
    .background{
-    width: 100vw;
-    height: 100vh;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    display: flex;
-    /* justify-content: center;  */
-    perspective: 1px;
-    perspective-origin: 0 0;
+    width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	/* perspective: 1px;
+	-webkit-perspective: 1px;
+	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d; */
+    /* overflow-x: hidden;
+    overflow-y: hidden;*/
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    /* perspective: 1px;
+    perspective-origin: 0 0; */
   }
   
   .floating-shapes {
@@ -33,14 +40,22 @@
   } */
   
   .content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
+    /* border: 1px solid red; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    /* right: 0; */
+    /* justify-content: center;
     transform-origin: 0 0;
-    transform: translateZ(0px) scale(1);
+    transform: translateZ(0px) scale(1); */
+    /* justify-content: center; */
+    width: 100vw;
+	height: 100vh;
+  margin-left: 27%;
+	/* position: relative;
+	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d; */
+
   }
 
   .socials-container{

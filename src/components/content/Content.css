@@ -4,7 +4,6 @@
   justify-content: center;
   width: 38vw;
   transition: background-color 1s;
-  /* border: 1px solid green; */
 }
 
 .home-opaque {
@@ -56,7 +55,6 @@
 }
 
 .options-wrapper {
-  /* border: 1px solid lime; */
   height: 4vh;
   margin-right: .35vw;
   width: 65%;
@@ -91,23 +89,11 @@
   line-height: 2vw;
   letter-spacing: .35vw;
   text-transform: uppercase;
-  unicode-bidi:bidi-override;
-  direction:rtl;
 }
 
-.menu-option::first-letter {
-  letter-spacing: normal;
+.menu-option:hover{
+  color: lightpink;
 }
-
-/* .menu-option:after{
-  position: absolute;
-  width: .5vw;
-  height: 2.8vw;
-  background-color: white;
-  content: ".";
-  text-indent: -9999em;
-  margin-left: -.3vw;
-} */
 
 .circle{
   height: 10px;
@@ -115,12 +101,13 @@
   border-radius: 5px;
   background-color: #61d3ac;
   margin-top: .5vh;
+  margin-right: .7vh;
+
 }
 .sections-wrapper{
   font-family: 'Courier';
   margin-bottom: 10px;
 }
-
 
 .separation-wrapper{
   width: 100%;
