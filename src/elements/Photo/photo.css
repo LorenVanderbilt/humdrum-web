@@ -11,6 +11,11 @@
     flex-direction: column;
 }
 
+.photo img{
+    width: 100%;
+    height: auto
+}
+
 .caption{
     align-self: flex-end;
     font-size: 12px;
