@@ -32,7 +32,7 @@ export default function Mobile() {
         >
           humdrum
         </div>
-        {/* <img src={Square} className={`square-mobile ${tap && 'spin-mobile'}`} alt={'black square'}/> */}
+        <img src={Square} className={`square-mobile ${tap && 'spin-mobile'}`} alt={'black square'}/>
       </div>
     </div>
   );
