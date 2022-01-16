@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Bio from '../bio/Bio';
 import Shows from '../shows/Shows.js';
 import Contact from '../contact/Contact.js';
@@ -11,7 +11,7 @@ import './Content.css';
 
 export default function Content(props) {
   const { backgroundOpacity } = props;
-  const [hover, setHover] = useState(null);
+  // const [hover, setHover] = useState(null);
   const options = ['Bio', 'Listen', 'Shows', 'Contact'];
 
   return (
@@ -48,8 +48,8 @@ export default function Content(props) {
                           .getElementById(`${option}-Section`)
                           .scrollIntoView({ behavior: 'smooth' });
                       }}
-                      onMouseEnter={() => setHover(option)}
-                      onMouseLeave={() => setHover(null)}
+                      // onMouseEnter={() => setHover(option)}
+                      // onMouseLeave={() => setHover(null)}
                       className={'menu-option'}
                     >
                       {option}
