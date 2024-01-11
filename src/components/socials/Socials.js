@@ -7,6 +7,7 @@ import Bandcamp from '../../resources/images/bandcamp.svg';
 import Apple from '../../resources/images/apple.svg';
 import Spotify from '../../resources/images/spotify.svg';
 import Email from '../../resources/images/email.svg';
+import Threads from '../../resources/images/threads.svg'
 import './Socials.scss';
 
 
@@ -18,7 +19,7 @@ export default function Socials(props) {
     { image: Spotify, url: 'https://open.spotify.com/album/4Ipdloec3fPT77HqDN70AJ' },
     { image: Apple, url: 'https://music.apple.com/us/album/wave-goodbye-single/1588532279?uo=4&app=itunes' },
     { image: Instagram, url: 'http://instagram.com/heyhumdrum' },
-    { image: Twitter, url: 'http://twitter.com/heyhumdrum' },
+    { image: Threads, url: 'https://www.threads.net/@heyhumdrum' },
     { image: Tiktok, url: 'http://tiktok.com/@heyhumdrumm' },
     { image: Facebook, url: 'http://www.facebook.com/heyhumdrum' },
     // { image: Email, url: 'mailto:heyhumdrum@gmail.com'}

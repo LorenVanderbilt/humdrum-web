@@ -1,5 +1,6 @@
 import React from 'react';
 import loren from '../../resources/images/humdrum_portrait_web.jpg';
+import humdrumPhoto from '../../resources/images/Humdrum_autumn_23.jpg'
 import Photo from '../../elements/Photo';
 
 import './Bio.css';
@@ -11,9 +12,9 @@ export default function Bio(props) {
         <div className={'bio-header-wrapper'}>
           <div className={'bio-header-text'}>bio</div>
           <Photo
-            image={loren}
-            credit={'Vincente Santiago'}
-            alt={'loren standing in wildflowers'}
+            image={humdrumPhoto}
+            credit={'Erin Lyle'}
+            alt={'blurry photo of humdrum'}
           />
         </div>
         <div className={'bio-text'}>
