@@ -1,5 +1,5 @@
 import React from 'react';
-// import image from '../../resources/images/flyers/4-2-22-povos.JPG'
+// import image from '../../resources/images/flyers/fallen_log_flyer.JPG'
 import './Shows.css';
 
 export default function Shows(props) {
@@ -8,17 +8,19 @@ export default function Shows(props) {
       <div className={'shows-container'}>
         <div className={'shows-header-text'}>shows</div>
         <div className={'shows-body'}>
-          {/* <img src={'../../resources/images/flyers/4-2-22-povos.JPG'} className={'flyer'}/> */}
-          <div className={'shows-sub-text'} style={{marginBottom: '50px'}}>Upcoming</div>
+          <div className={'shows-sub-text'} style={{marginBottom: '15px'}}>Upcoming</div>
+          <div style={{marginBottom: '50px'}}>June 12, 2024 - Fallen Log - Chicago, Il</div>
+
+          {/* <img src={image} className={'flyer'} alt={'flyer for upcoming show'}/> */}
           {/* <div><a href="https://www.etix.com/ticket/p/5087751/tallies-torontosunshyhumdrum-chicago-coles-bar" target="_blank" rel="noopener noreferrer">June 22, 2023 - Cole's - Chicago, Il</a></div> */}
-          <div><a href="https://www.theburlingtonbar.com/" target="_blank" rel="noopener noreferrer">March 8, 2024 - Burlington - Chicago, Il</a></div>
-
           {/* <div>No live performances scheduled at this time.</div> */}
-          {/* <div className={'shows-sub-text blue'} >Previous</div>
-           <div><a href="https://hideoutchicago.com/" target="_blank" rel="noopener noreferrer">March 2, 2023 - The Hideout - Chicago, Il</a></div>
-
+          <div className={'shows-sub-text blue'}  style={{marginBottom: '15px'}}>Previous</div>
+          
+          <div>March 8, 2024 - Burlington - Chicago, Il</div>
+          <div>June 22, 2023 - Cole's - Chicago, Il</div>
+          <div>March 2, 2023 - The Hideout - Chicago, Il</div>
           <div>January 12, 2023 - Burlington Bar - Chicago, Il</div>
-          <div>April 2, 2022 - Povos Gallery - Chicago, Il</div> */}
+          <div>April 2, 2022 - Povos Gallery - Chicago, Il</div>
           </div>
       </div>
     </div>
