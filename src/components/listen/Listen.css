@@ -1,7 +1,7 @@
 
 .listen-container{
     padding-top: 29vh;
-    height: 100vh;
+    min-height: 100vh;
     padding-left: 1.5vw;
     padding-right: 1.5vw;
     display: flex;
@@ -17,6 +17,8 @@
   letter-spacing: 2vh;
   width: 11vw;
   line-height: 8vh;
+  /* line-height: 25vh; */
+  color: black;
   z-index: 2;
   font-family: Humdrum;
 }

@@ -1,24 +1,40 @@
-.shows-container{
-    padding-top: 30vh;
-    height: 100vh;
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.shows-container {
+  padding-top: 30vh;
+  height: 100vh;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.shows-header-text{
-    align-self: flex-start;
-    text-transform: uppercase;
-    font-size: 13vw;
-    letter-spacing: .75vh;
-    width: 11vw;
-    line-height: 8vh;
-    z-index: 2;
-    font-family: Humdrum;
+.shows-header-text {
+  align-self: flex-start;
+  text-transform: uppercase;
+  font-size: 13vw;
+  letter-spacing: 0.75vh;
+  width: 11vw;
+  line-height: 8vh;
+  z-index: 2;
+  font-family: Humdrum;
 }
 
-.shows-body{
-    margin-top: 200px;
+.shows-sub-text {
+  font-size: 7vw;
+  font-family: Humdrum;
+  text-transform: uppercase;
+  color: #ed5f5f;
+  line-height: 12vh;
+}
+
+.blue {
+  color: #619fd3;
+}
+
+.shows-body {
+  margin-top: 200px;
+}
+
+.flyer {
+  width: 70%;
 }
