@@ -12,7 +12,7 @@ export default function Bio(props) {
           <div className={'bio-header-text'}>bio</div>
           <Photo
             image={humdrumPhoto}
-            credit={'Erin Lyle'}
+            credit={'Dale Price'}
             alt={'blurry photo of humdrum'}
           />
         </div>
