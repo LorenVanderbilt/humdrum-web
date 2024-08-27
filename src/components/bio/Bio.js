@@ -1,6 +1,6 @@
 import React from 'react';
 import loren from '../../resources/images/humdrum_portrait_web.jpg';
-import humdrumPhoto from '../../resources/images/Humdrum_port.jpg'
+import humdrumPhoto from '../../resources/images/yellow-roses.jpg'
 import Photo from '../../elements/Photo';
 
 import './Bio.css';
