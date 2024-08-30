@@ -19,7 +19,6 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 3px;
-    /* margin-left: -50px; orig */
     margin-left: -40px;
     cursor: pointer;
 }
@@ -41,16 +40,3 @@
         transition: margin-left #{$i * 0.25}s;
     }
 }
-// ORIGINAL ANIMATION
-// .socialsCircle:first-child{
-//  transition: margin-left .75s;  
-// }
-// .socialsCircle:last-child{
-//     transition: margin-left 1s; 
-// } 
-// .socialsCircle:nth-child(even){
-//     transition: margin-left 1.2s; 
-// }
-//  .socialsCircle:nth-child(3){
-//     transition: margin-left 1.5s; 
-// }
