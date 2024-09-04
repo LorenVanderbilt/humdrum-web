@@ -8,7 +8,6 @@
 }
 
 .bio-header-wrapper {
-  /* border: 1px solid red; */
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -16,7 +15,6 @@
 }
 
 .bio-header-text{
-  /* border: 1px solid purple; */
   writing-mode: vertical-rl;
   text-orientation: sideways-right;
   text-transform: uppercase;
