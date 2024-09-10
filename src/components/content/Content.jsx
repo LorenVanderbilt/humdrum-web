@@ -3,6 +3,7 @@ import Bio from '../bio/Bio';
 import Shows from '../shows/Shows.js';
 import Contact from '../contact/Contact.js';
 import Listen from '../listen/Listen';
+import Video from '../video/Video.js';
 import Square from '../../resources/images/newSquare40.png';
 import {ReactComponent as Squiggle01} from '../../resources/images/squiggle01.svg';
 import {ReactComponent as Squiggle02} from '../../resources/images/squiggle02.svg';
@@ -11,8 +12,7 @@ import './Content.css';
 
 export default function Content(props) {
   const { backgroundOpacity } = props;
-  // const [hover, setHover] = useState(null);
-  const options = ['Bio', 'Listen', 'Shows', 'Contact'];
+  const options = ['Bio', 'Listen', 'Video', 'Shows', 'Contact'];
 
   return (
     <div
@@ -48,8 +48,6 @@ export default function Content(props) {
                           .getElementById(`${option}-Section`)
                           .scrollIntoView({ behavior: 'smooth' });
                       }}
-                      // onMouseEnter={() => setHover(option)}
-                      // onMouseLeave={() => setHover(null)}
                       className={'menu-option'}
                     >
                       {option}
@@ -68,6 +66,7 @@ export default function Content(props) {
           <Squiggle01 />
         </div>
         <Listen />
+        <Video />
         <div className={'separation-wrapper'} style={{ transform: 'rotate(-14deg)'}}>
           <Squiggle02 /> 
         </div>
