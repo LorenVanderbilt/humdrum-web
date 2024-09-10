@@ -46,14 +46,6 @@ export default function Desktop() {
       onScroll={handleScroll}
       id="desktop-background"
     >
-      {/* <div
-        className="floating-shapes"
-        // style={{
-        //   backgroundImage: `url(${Shapes})`,
-        // }}
-      >
-       <Shapes />   
-      </div> */}
       <div className="socials-container">
         <Socials mobile={false} />
       </div> 
