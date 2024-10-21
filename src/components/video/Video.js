@@ -10,7 +10,19 @@ export default function Video(props) {
                         VIDEO
                     </div>
              </div>
-            
+            {/* COME AND GET ME */}
+             <iframe 
+             width="560" 
+             height="315" 
+             src="https://www.youtube.com/embed/b2gkDf5Kv30?si=vRolLuZK1M6HHy-D" 
+             title="YouTube video player" 
+             frameborder="0" 
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+             referrerpolicy="strict-origin-when-cross-origin" 
+             allowfullscreen>
+             </iframe>
+             <br/>
+             <br/>
             {/* ETERNAL BLUE */}
              <iframe
               width="560"
