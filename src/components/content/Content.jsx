@@ -74,7 +74,7 @@ export default function Content(props) {
         <div className={'separation-wrapper'}>
           <Squiggle03 /> 
         </div>
-        <Contact />© Humdrum 2024
+        <Contact />© Humdrum 2025
       </div>
     </div>
   );

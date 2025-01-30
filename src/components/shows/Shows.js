@@ -11,6 +11,8 @@ export default function Shows(props) {
           <div className={'shows-sub-text'} style={{marginBottom: '15px'}}>u p c o m i n g</div>
           <div><a href="https://lh-st.com/shows/02-16-2025-emily-jane-powers/" target="_blank" rel="noopener noreferrer">February 16, 2025 - Schubas - Chicago, Il</a></div>
           <div><a href="https://www.newcolossusfestival.com/badges" target="_blank" rel="noopener noreferrer">March, 2025 - The New Colossus Festival - New York, NY (details TBA)</a></div>
+          <div>March 28, 2025 - 7th Street Space - Dekalb, Il</div>
+          <div><a href="https://kitchen17.com/events/" target="_blank" rel="noopener noreferrer">March 29, 2025 - Fallen Log - Chicago, Il</a></div>
           {/* <div style={{marginBottom: '50px'}}>August 6, 2024 - Empty Bottle - Chicago, Il</div> */}
           {/* <img src={image} className={'flyer'} alt={'flyer for upcoming show'}/> */}
           {/* <div><a href="https://www.newcolossusfestival.com/badges" target="_blank" rel="noopener noreferrer">June 22, 2023 - Cole's - Chicago, Il</a></div> */}
