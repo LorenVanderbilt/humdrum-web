@@ -62,16 +62,16 @@ export default function Content(props) {
       </div>
       <div className={'sections-wrapper'}>
         <Bio />
-        <div className={'separation-wrapper'} style={{ transform: 'rotate(14deg)'}}>
+        <div className={'separation-wrapper'} style={{ transform: 'rotate(14deg)', opacity: 0.4}}>
           <Squiggle01 />
         </div>
         <Listen />
         <Video />
-        <div className={'separation-wrapper'} style={{ transform: 'rotate(-14deg)'}}>
+        <div className={'separation-wrapper'} style={{ transform: 'rotate(-14deg)', opacity: 0.4}}>
           <Squiggle02 /> 
         </div>
         <Shows />
-        <div className={'separation-wrapper'}>
+        <div className={'separation-wrapper'} style={{opacity: 0.4}}>
           <Squiggle03 /> 
         </div>
         <Contact />© Humdrum 2025
